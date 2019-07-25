@@ -11,6 +11,7 @@ import UploadAdapter from '@ckeditor/ckeditor5-adapter-ckfinder/src/uploadadapte
 import Autoformat from '@ckeditor/ckeditor5-autoformat/src/autoformat';
 import BlockToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/block/blocktoolbar';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold';
+import Code from '@ckeditor/ckeditor5-basic-styles/src/code';
 import Italic from '@ckeditor/ckeditor5-basic-styles/src/italic';
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote';
 import CKFinder from '@ckeditor/ckeditor5-ckfinder/src/ckfinder';
@@ -40,6 +41,7 @@ BalloonEditor.builtinPlugins = [
 	Autoformat,
 	BlockToolbar,
 	Bold,
+	Code,
 	Italic,
 	BlockQuote,
 	CKFinder,
@@ -68,6 +70,7 @@ BalloonEditor.defaultConfig = {
 		'numberedList',
 		'imageUpload',
 		'blockQuote',
+		'code',
 		'insertTable',
 		'mediaEmbed',
 		'|',
